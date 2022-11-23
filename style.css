@@ -1,0 +1,86 @@
+html,
+body {
+  font-size: 62.5%;
+  font-family: monospace;
+  font-size: 1rem;
+}
+
+.container {
+  color: white;
+  width: 524px;
+  height: auto;
+  margin: 5rem auto;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(144, 144, 144),
+    rgb(132, 0, 255)
+  );
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: center;
+  box-shadow: 0px 0px 13px 1px rgba(0, 0, 0, 0.5);
+}
+
+h1,
+h2,
+h4,
+p {
+  margin: auto;
+}
+
+h4,
+h2 {
+  margin-bottom: 1rem;
+}
+.button {
+  margin: 2rem auto;
+}
+p {
+  font-size: 5rem;
+}
+.btn,
+.btn_set {
+  padding: 1rem 2rem;
+  background-color: transparent;
+  border: 1px solid white;
+  cursor: pointer;
+  margin: 0.2rem;
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+hr {
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+.btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px 1px rgb(69, 69, 69);
+  border-color: blueviolet;
+}
+.btn_set:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px 1px rgb(69, 69, 69);
+  border-color: blueviolet;
+}
+.results {
+  height: auto;
+  width: auto;
+  display: grid;
+  grid-template-rows: auto;
+}
+
+.rip {
+  margin-left: 12.7rem;
+  margin-bottom: 0.5rem;
+}
+li {
+  list-style: none;
+  margin-left: 11.7rem;
+  font-size: 1.5Srem;
+}
